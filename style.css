@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --dark-background-color: #1F2937;
+    --button-color: #3882f6;
+    --header-logo-color: #f9faf8;
+    --quote-background-color: #e5e7eb;
+    --quote-text-color: #1f2937;
+    --header-link-text: #e5e7eb;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: Roboto, Arial;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    height: 48px;
+    background-color: var(--dark-background-color);
+    margin-bottom: 0;
+}
+.header-logo {
+    color: var(--header-logo-color);
+    font-size: 12px;
+    font-weight: 1000;
+    padding: 10px 0px 0px 100px;
+}
+.links {
+    display: flex;
+    padding: 10px 100px 0px 0px;
+    gap: 25px;;
+}
+.links a {
+    color: var(--header-link-text);
+    font-size: 12px;
+    text-decoration: none;
+    word-spacing: 2px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    margin-top: -1px;
+    background-color: var(--dark-background-color);
+    padding: 30px 100px;
+}
+.heading-text {
+    color: var(--header-logo-color);
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-button {
+    min-width: 400px;
+    max-width: 400px;
+    height: 200px;
+    /* border: 1px solid; */
+}
+.text-button p {
+    color: var(--header-link-text);
+}
+.text-button button {
+    background-color: var(--button-color);
+    color: var(--header-logo-color);
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-left: 0;
+    border: none;
+    border-radius: 5px;
+}
+.image-placeholder {
+    width: 400px;
+    height: 200px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(119, 119, 119);
+    color: var(--header-link-text);
+    
+}
+.section2 .heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+.boxes-texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.grid {
+    width: 145px;
+    margin: 20px 0px 50px;
+}
+.section2 .box {
+    width:100%;
+    height: 145px;
+    border: 5px solid var(--button-color);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.orimage {
+    text-align: center;
+}
+.section3 {
+    background-color: var(--quote-background-color);
+    margin: 20px 0px;
+    position: relative;
+}
+.section3::after {
+    content: "-Thor, God of Thunder";
+    position: absolute;
+    bottom: 70px;
+    right: 160px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.section3 p {
+    width: 830px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    font-style: italic;
+    font-size: 36px;
+    color: var(--quote-text-color);
+}
+.section4 .box {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-radius: 8px;
+    background-color: var(--button-color);
+    color: var(--header-logo-color);
+    padding: 25px 50px;
+}
+.section4 button {
+    background-color: var(--button-color);
+    color: var(--header-logo-color);
+    padding: 5px 30px;
+    border: 2px solid var(--header-logo-color);
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    background-color: var(--dark-background-color);
+    padding: 25px 0px;
+    color: var(--header-link-text);
+}
