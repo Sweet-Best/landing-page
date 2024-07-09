@@ -157,7 +157,7 @@ button:active {
     border: 5px solid rgb(60, 255, 0);
     border-radius: 15px;
     margin-bottom: 10px;
-    background-image: url(/images/uy-scuti.jpg);
+    background-image: url(./images/uy-scuti.jpg);
     background-position: center;
     background-size: cover;
 }
